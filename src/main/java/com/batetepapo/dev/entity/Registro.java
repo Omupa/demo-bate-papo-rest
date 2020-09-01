@@ -18,7 +18,7 @@ public class Registro {
     @NotNull
     private String descricao;
 
-    private LocalDateTime inclusao;
+    private LocalDateTime inclusao
 
     public Registro() {
     }
