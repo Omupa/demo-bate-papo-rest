@@ -36,7 +36,7 @@ Instruções para cada módulos podem ser encontradas no README.md de cada um.
 [1]: https://github.com/Omupa/demo-bate-papo-web
 [2]: https://git-scm.com/
 [3]: https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet
-[4]: https://github.com/Omupa/demo-bate-papo-universitarios/tree/master/dev-rest
+[4]: https://github.com/Omupa/demo-bate-papo-rest/blob/master/INSTRUCOES.md
 
 [5]: https://fullcycle.com.br/
 [6]: https://github.com/gothinkster/realworld
