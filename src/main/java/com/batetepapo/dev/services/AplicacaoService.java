@@ -19,7 +19,7 @@ public class AplicacaoService {
 
     public Aplicacao salvar(Aplicacao aplicacao) {
         AplicacaoRepository.aplicacao.setNome(aplicacao.getNome());
-        AplicacaoRepository.aplicacao.setPrimaryColor(aplicacao.getPrimaryColor());
+        AplicacaoRepository.aplicacao.setDescricao(aplicacao.getDescricao());
 
         return AplicacaoRepository.aplicacao;
     }

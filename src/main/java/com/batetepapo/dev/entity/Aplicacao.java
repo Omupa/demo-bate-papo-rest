@@ -6,7 +6,7 @@ import com.fasterxml.jackson.annotation.JsonInclude;
 public class Aplicacao {
 
     private String nome;
-    private String primaryColor;
+    private String descricao;
 
     public Aplicacao() {
     }
@@ -19,11 +19,11 @@ public class Aplicacao {
         this.nome = nome;
     }
 
-    public String getPrimaryColor() {
-        return primaryColor;
+    public String getDescricao() {
+        return descricao;
     }
 
-    public void setPrimaryColor(String primaryColor) {
-        this.primaryColor = primaryColor;
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
     }
 }
