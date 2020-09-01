@@ -19,7 +19,7 @@ public class RegistroController {
         this.registroService = registroService;
     }
 
-    @GetMapping(path = "/{id}")
+    @GetMapping(path = "/{id")
     public ResponseEntity<RegistroDTO> buscar(@PathVariable Long id) {
         return ResponseEntity.ok(registroService.buscar(id));
     }
@@ -39,7 +39,7 @@ public class RegistroController {
         return ResponseEntity.ok(registroService.atualizar(registroDto));
     }
 
-    @DeleteMapping(path = "/{id}")
+    @DeleteMapping(path = "/{iddentificador}")
     public ResponseEntity<Void> deletar(@PathVariable Long id) {
         registroService.deletar(id);
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);

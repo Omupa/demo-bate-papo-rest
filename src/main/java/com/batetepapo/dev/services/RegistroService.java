@@ -30,7 +30,7 @@ public class RegistroService {
     }
 
     public List<RegistroDTO> listarTodos() {
-        List<Registro> registros = registroRepository.findAll();
+        List<Registro> registros = Collections.emptyList();
         if (registros.isEmpty())
             return Collections.emptyList();
 
@@ -62,7 +62,6 @@ public class RegistroService {
         if (processo.isPresent()) {
             // Tem forma mais adequada de fazer isso. Ex: MapStruct https://mapstruct.org/
             registroParaAtualizar = processo.get();
-            registroParaAtualizar.setTitulo(registroDto.getTitulo());
             registroParaAtualizar.setDescricao(registroDto.getDescricao());
             registroParaAtualizar.setInclusao(registroDto.getInclusao());
 

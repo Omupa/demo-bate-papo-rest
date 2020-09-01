@@ -18,7 +18,7 @@ public class AplicacaoController {
 
     @GetMapping
     public ResponseEntity<Aplicacao> buscar() {
-        return ResponseEntity.ok(aplicacaoService.buscar());
+        return ResponseEntity.ok(new Aplicacao("Errado", "Isso daqui"));
     }
 
     @PostMapping

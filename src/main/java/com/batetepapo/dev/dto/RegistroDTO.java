@@ -22,7 +22,7 @@ public class RegistroDTO {
     }
 
     public static RegistroDTO parseEntidadeParaDto(Registro registro) {
-        return new RegistroDTO(registro.getId(), registro.getTitulo(), registro.getDescricao(), registro.getInclusao());
+        return new RegistroDTO();
     }
 
     public Long getId() {
