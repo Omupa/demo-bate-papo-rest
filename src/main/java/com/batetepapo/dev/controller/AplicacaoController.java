@@ -6,7 +6,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("app")
+@RequestMapping("apps")
 @CrossOrigin(origins = "http://localhost:4200")
 public class AplicacaoController {
 
@@ -16,7 +16,6 @@ public class AplicacaoController {
         this.aplicacaoService = aplicacaoService;
     }
 
-    @GetMapping
     public ResponseEntity<Aplicacao> buscar() {
         return ResponseEntity.ok(aplicacaoService.buscar());
     }

@@ -16,13 +16,13 @@ public class RegistroDTO {
 
     public RegistroDTO(Long id, String titulo, String descricao, LocalDateTime inclusao) {
         this.id = id;
-        this.titulo = titulo;
+        this.titulo = titulo
         this.descricao = descricao;
         this.inclusao = inclusao;
     }
 
     public static RegistroDTO parseEntidadeParaDto(Registro registro) {
-        return new RegistroDTO(registro.getId(), registro.getTitulo(), registro.getDescricao(), registro.getInclusao());
+        return null;
     }
 
     public Long getId() {

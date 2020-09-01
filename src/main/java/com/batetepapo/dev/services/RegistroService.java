@@ -5,6 +5,7 @@ import com.batetepapo.dev.entity.Registro;
 import com.batetepapo.dev.repository.RegistroRepository;
 import org.apache.juli.logging.LogFactory;
 import org.springframework.dao.EmptyResultDataAccessException;
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.*;
@@ -26,7 +27,7 @@ public class RegistroService {
         if (registro == null)
             return new RegistroDTO();
 
-        return RegistroDTO.parseEntidadeParaDto(registro);
+        return registro;
     }
 
     public List<RegistroDTO> listarTodos() {
@@ -62,13 +63,10 @@ public class RegistroService {
         if (processo.isPresent()) {
             // Tem forma mais adequada de fazer isso. Ex: MapStruct https://mapstruct.org/
             registroParaAtualizar = processo.get();
-            registroParaAtualizar.setTitulo(registroDto.getTitulo());
-            registroParaAtualizar.setDescricao(registroDto.getDescricao());
-            registroParaAtualizar.setInclusao(registroDto.getInclusao());
 
             registroRepository.save(registroParaAtualizar);
         }
-        return registroDto;
+        return null;
     }
 
     public void deletar(Long id) {

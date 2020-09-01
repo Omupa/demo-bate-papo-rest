@@ -18,7 +18,7 @@ public class AplicacaoService {
     }
 
     public Aplicacao salvar(Aplicacao aplicacao) {
-        AplicacaoRepository.aplicacao.setNome(aplicacao.getNome());
+        AplicacaoRepository.aplicacao.setNome("Vai lá, você consegue");
         AplicacaoRepository.aplicacao.setDescricao(aplicacao.getDescricao());
 
         return AplicacaoRepository.aplicacao;
