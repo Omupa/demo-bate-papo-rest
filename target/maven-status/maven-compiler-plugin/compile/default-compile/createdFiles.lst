@@ -1,0 +1,10 @@
+com/batetepapo/dev/controller/AplicacaoController.class
+com/batetepapo/dev/services/AplicacaoService.class
+com/batetepapo/dev/entity/Registro.class
+com/batetepapo/dev/dto/RegistroDTO.class
+com/batetepapo/dev/entity/Aplicacao.class
+com/batetepapo/dev/DevApplication.class
+com/batetepapo/dev/repository/RegistroRepository.class
+com/batetepapo/dev/controller/RegistroController.class
+com/batetepapo/dev/repository/AplicacaoRepository.class
+com/batetepapo/dev/services/RegistroService.class
