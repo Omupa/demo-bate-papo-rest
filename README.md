@@ -19,7 +19,8 @@ Instruções para cada módulos podem ser encontradas no README.md de cada um.
 1. [Baeldung][7]: ecosistema Java/Spring
 2. [Java efetivo][11]: as melhores práticas no desenvolvimento Java
 3. DevDojo [site][12] ou [YouTube][13]: tutoriais de alta qualidade para Java **FREE BR** :heart:
-4. [Spring Guides][15]: 
+4. [Spring Guides][15]: Tutoriais criados pelo Spring
+5. [Sou Java - YouTube][16]: Canal com as discussões atuais no mercado e muito conhecimento a partir de experiências
 
 #### Angular
 1. [Loiane Groner][14]: curso **FREE BR** :heart:
@@ -49,3 +50,4 @@ Instruções para cada módulos podem ser encontradas no README.md de cada um.
 [13]: https://www.youtube.com/c/DevDojoBrasil/playlists
 [14]: https://www.youtube.com/watch?v=tPOMG0D57S0&list=PLGxZ4Rq3BOBoSRcKWEdQACbUCNWLczg2G
 [15]: https://spring.io/guides
+[16]: https://www.youtube.com/c/SouJava/videos
